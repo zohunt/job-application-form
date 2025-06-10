@@ -1,0 +1,78 @@
+/* Container styling */
+.container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+/* Input, Select, Textarea basic styling */
+input, select, textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* First input field (Full Name) styling */
+input:first-of-type {
+  border-radius: 12px;
+  background-color: #f9f9f9;
+}
+
+/* Focus effect */
+input:focus,
+textarea:focus {
+  border-color: #4A90E2;
+  outline: none;
+}
+
+/* Valid and Invalid styling */
+input:valid,
+select:valid,
+textarea:valid {
+  border-color: green;
+}
+
+input:invalid,
+select:invalid,
+textarea:invalid {
+  border-color: red;
+}
+
+/* Radio group styling */
+.radio-group {
+  margin: 1rem 0;
+}
+
+/* Style checked radio buttons */
+.radio-group input[type="radio"]:checked {
+  border: 2px solid #4A90E2;
+  background-color: #e0f0ff;
+  box-shadow: 0 0 5px #4A90E2;
+}
+
+/* Style label of selected radio button */
+.radio-group input[type="radio"]:checked + label,
+.radio-group input[type="radio"]:checked ~ label {
+  color: #4A90E2;
+  font-weight: bold;
+}
+
+/* Button styling */
+button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  background-color: #4A90E2;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Hover effect for button */
+button:hover {
+  background-color: #357ABD;
+}
