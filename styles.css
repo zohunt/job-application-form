@@ -83,3 +83,17 @@ button {
 button:hover {
   background-color: #357ABD;
 }
+
+.radio-group {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
