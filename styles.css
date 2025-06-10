@@ -96,4 +96,22 @@ button:hover {
   gap: 0.5rem;
   cursor: pointer;
 }
+.radio-group {
+  display: flex;
+  gap: 1.5rem; /* space between options */
+  margin: 1rem 0;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;  /* vertically center the radio and text */
+  gap: 0.5rem;          /* space between radio and label text */
+  cursor: pointer;
+}
+
+/* Optional: make radio inputs a bit bigger */
+.radio-group input[type="radio"] {
+  width: 18px;
+  height: 18px;
+}
 
